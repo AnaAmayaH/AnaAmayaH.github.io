@@ -14,3 +14,16 @@ header, footer{
 .list :nth-child(1) {background-color: plum;}
 .list :nth-child(2) {background-color: peru;}
 
+a { color:rgb(165, 63, 168);}
+a, li {text-decoration: none;
+        background-color: rgb(139, 182, 233);
+        padding: 14px 25px;
+        border: 25px rgb(209, 209, 230);
+        display: inline-block;}
+
+a:hover {
+    color: yellowgreen;
+    background-color: beige;
+    text-decoration: none;
+    pandding: 14px 25px;
+}
