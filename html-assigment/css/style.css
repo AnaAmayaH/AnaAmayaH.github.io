@@ -1,0 +1,16 @@
+body {
+    font-family: Lucida Sans; 
+    font-size: 18px;
+}
+header, footer{
+    background-color: darkmagenta;
+}
+.site-title {color:lavender;}
+#my-image {
+    width: 250px;
+    box-shadow: 0px 0px 2px 1px black;
+}
+.list {list-style-type: square;}
+.list :nth-child(1) {background-color: plum;}
+.list :nth-child(2) {background-color: peru;}
+
