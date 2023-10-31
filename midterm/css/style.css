@@ -1,0 +1,44 @@
+body {
+    background-color:  #aad4cf;
+    font-size: 20px;
+    background-position: 0%;
+}
+header {
+    text-align:center;
+    color: white;
+    padding-inline-start: 800px 100px;
+}
+.box {  
+    background-image: url(../img/lone-starfish-wide.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 100px 180px;
+    background-repeat: no-repeat;
+    right: 50px;
+    width: 500px;
+    margin: 0 auto;
+    position:relative;
+
+}
+.container {
+    width: 500px;
+    margin: 0 auto
+}
+img {
+    width: 200px;
+    float: rigth;
+}
+.list {
+    width: 500px;
+    margin: 0 auto;
+
+}
+
+.form {
+    width: 500px;
+    margin: 0 auto;
+}
+
+footer{
+    float: right;
+}
