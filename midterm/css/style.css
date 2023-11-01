@@ -9,16 +9,13 @@ header {
     padding-inline-start: 800px 100px;
 }
 .box {  
-    background-image: url(../img/lone-starfish-wide.jpg);
-    background-size: cover;
-    background-position: center;
-    padding: 100px 180px;
-    background-repeat: no-repeat;
-    right: 50px;
-    width: 500px;
-    margin: 0 auto;
     position:relative;
+    
 
+}
+#tittle {
+    position: absolute;
+    
 }
 .container {
     width: 500px;
@@ -41,4 +38,10 @@ img {
 
 footer{
     float: right;
+}
+
+
+#supercontainer {
+    width: 1024px;
+    margin: auto;
 }
