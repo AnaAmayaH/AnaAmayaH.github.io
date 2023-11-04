@@ -6,8 +6,7 @@ body {
 #supercontainer {
     width: 1024px;
     margin: auto;
-    border-right: 2px;
-    border-left: 2px;
+ /*supercontainer is the principal box*/   
 }
 
 main, nav {
@@ -22,8 +21,6 @@ nav a {
     border-right: 2px grey solid; 
     display: inline-block;
     width: 30%;
-
-
 }
 
 header {
@@ -34,7 +31,8 @@ header {
 .topimage img{   
     width: 100%;
     height: auto;
-    position:relative;
+    position: relative;
+    z-index: 1;
     }
 
 .topimage h1 {
@@ -43,6 +41,8 @@ header {
     font-size: 50px;
     text-align: center;
     position: relative;
+    z-index: 2;
+
 
 }
 h2 {
@@ -65,7 +65,7 @@ ul {
     list-style-type: disc;
     padding-left: 20px;
 }
-
+/*I specify that it is the image inside the contener*/
 .container img{
     width: 200px;
     height: 200px;
@@ -73,6 +73,7 @@ ul {
     float: left;
     margin-bottom: 15px;
 }
+/*I write flote in both, for the image and the text*/
 img {
     width: 200px;
     float: rigth;
@@ -82,19 +83,27 @@ img {
     margin: 0 auto;
 
 }
+/*margin help me to make space*/
+/*border there are the space where is the text*/
 #fullname {
-    width: 825px;
-    height: 25px;
+    width: 900px;
+    height: 30px;
+    border-style: groove;
+    border-width: 1px;
+    margin-left: 4px;
 }
 #email {
-    width: 825px;
-    height: 25px;
+    width: 900px;
+    height: 30px;
+    border-style: groove;
+    border-width: 1px;
+    margin-left: 4px;
 }
 .form {
     border: solid;
     border-color: grey;
     border-width: 2px;
-    padding; 10px;
+    padding-top: 10px;
     
 }
 button {

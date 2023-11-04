@@ -18,17 +18,18 @@
         <img src="img/lone-starfish-wide.jpg" alt="starfish">
         <h1>Lone Starfish</h1>
       </div>
-      <nav>
+       <nav>
         <ul>
           <a href="index.html">Home</a>
           <a href="index.html">Story</a>
           <a href="index.html">Contact</a>
         </ul>
-      </nav>
+       </nav>
     </header>
 
     <main>
       <article>
+        <!--class helpes to modify in css a group-->
         <div class="container">
 
           <h2>Life of a Startfish</h2>
@@ -68,11 +69,12 @@
           </ul>
         </div>
       </article>
+      <h2>Contact to learn more</h2>
       <div class="form">
-        <h2>Contact to learn more</h2>
-
         <form action="send.html" method="post">
           <fieldset>
+            <!--fieldset is to made a form-->
+            <!--id is for a especific change, only that element-->
             <div>
               <label for="fullname">Your Name</label><br><br>
               <input id="fullname" type="text" name="fullname"><br><br>
@@ -84,8 +86,9 @@
             <div>
               <label for="message">Your Message</label><br><br>
               <textarea style="resize: none" id="message"  name="message"  rows="5" cols="115"></textarea><br><br>
-
-
+<!--textarea is a space to write comments and rows and cols give the size-->
+<!--input is to give an space to write-->
+<!--input radio to do the circles-->
 
               <h3>Would you like to visit the starfish?</h3>
               <form action="send.html" method="post">
@@ -94,7 +97,7 @@
                 <label for="no">No</label>
                 <input type="radio" id="no" name="no" value="no">
                 <label for="maybe">Maybe</label>
-                <input type="radio" id="maybe" name="maybe" value="maybe">
+                <input type="radio" id="maybe" name="maybe" value="maybe"><br><br>
                 <div>
                   <button type="submit">send</button> 
                 </div>
