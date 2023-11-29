@@ -1,5 +1,27 @@
 body {
-    background-color: white
-    font-size: 20px;
-    font: Open Size
-    background-position: 0%;
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    max-width: 1200px;
+}
+h1 {
+    font-weight: bold;
+    font-size: 45px;
+    font-style: bold;
+}
+
+.topimages img {
+    width: 100%;
+    height: 50px;
+
+}
+
+.topimages {
+    background-color: #222;
+
+}
+
+
+
+
+
+@media only screen and (min-width: 760px) 
