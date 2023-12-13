@@ -13,18 +13,20 @@
 
 <body>
   <header>
-    <div class="topimages">
+    <div class="top">
       <img src="img/logo.png" alt="logo">
       <nav>
         <ul>
-          <li><a href="index.html">Home</a></li>
+          <li><a class="home" href="index.html">Home</a></li>
           <li> <a href="index.html">About us</a></li>
           <li><a href="index.html">Services</a></li>
           <li><a href="index.html">Team</a></li>
           <li><a href="index.html">Contact</a><br></li>
         </ul>
         <!--only I have to use input to search-->
-        <input type="placeholder" id=Search name="Search>">Search</input>
+        <div>
+        <button class="btn" href="search">Search</button>
+       <!--<input type="search" id=Search name="Search">Search</input>-->
       </nav>
     </div>
 
@@ -32,17 +34,23 @@
 
   <main>
     <!--this is the first section-->
-    <div class="welcome">
+    <div id="welcome">
+      
       <h1>Welcome to Three Star Media</h1>
-      <img src="img/main-banner.jpg" alt="office">
-      <p>
+     
+      
+      <img src="img/main-banner.jpg" alt="office"> 
+      </div>
+       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
         dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
         aliquip ex ea commodo consequat.
-      </p>
-      <!--<a class="btn" href="#">Connect with us</a>-->
-      <button type="button">Connect with us</button>
-    </div>
+       </p>
+      
+       <button class="button" id="connect">Connect with us</button>
+    
+      </div>
+    </div
 
     <div class="aboutus">
       <h1>About us</h1>
@@ -62,18 +70,24 @@
         <h2>Digital transformation</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
           dolore magna aliqua.</p>
-        <!-- <a class="btn" href="#">Digital Plans</a>-->
-        <button type="button">Digital Plans</button>
+      
+        
+        <button class="button">Digital Plans</button>
       </article>
-
+    </div>
+    
+    <div class="services">  
       <article>
         <img src="img/marketing.jpg" alt="marketingservice">
         <h2>Marketing</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
           dolore magna aliqua.</p>
-        <!--<a class="btn" href="#">Marketing Plans</a>-->
-        <button type="button">Marketing Plans</button>
+        <!--<Add a same class to buttons that have the same characteristics</a>-->
+        <button class="button">Marketing Plans</button>
       </article>
+    </div>
+
+    <div class="services" >
 
       <article>
         <img src="img/video.jpg" alt="videoservice">
@@ -81,8 +95,11 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
           dolore magna aliqua.</p>
         <!--<a class="btn" href="#">Video Plans</a> -->
-        <button type="button">Video Plans</button>
+        <button class="button">Video Plans</button>
       </article>
+    </div>
+
+    <div class="services" >
 
       <article>
         <img src="img/web.jpg" alt="weblservice">
@@ -90,19 +107,23 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
           dolore magna aliqua.</p>
         <!--<a class="btn" href="#">Web Plans</a> -->
-        <button type="button">Web Plans</button>
+        <button class="button">Web Plans</button>
       </article>
+    </div>
+    
+    <div class="services">
 
       <article>
         <img src="img/print.jpg" alt="printservice">
         <h2>Print</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
           dolore magna aliqua.</p>
-        <button type="button">Print Plans</button>
+        <button class="button">Print Plans</button>
       </article>
     </div>
+   
 
-    <div class="ourvision">
+    <div class="services" >
       <article>
         <h2>Our Vision</h2>
         <img src="img/vision.jpg" alt="ourvision">
@@ -163,11 +184,13 @@
     <div class="operation">
 
       <table>
+        <thead>
         <tr>
           <th>Days</th>
           <th>Hours</th>
         </tr>
-
+        </thead>
+        <tbody>
         <tr>
           <td>Monday-Friday</td>
           <td>9 AM- 6 PM</td>
@@ -177,6 +200,7 @@
           <td>Saturday-Sunday</td>
           <td>Closed</td>
         </tr>
+        </tbody>
       </table>
     </div>
 
