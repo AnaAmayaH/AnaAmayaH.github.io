@@ -7,14 +7,14 @@ body{
     width: auto;
     
 }
-h1{
-    font-weight: 400;
+h1 {
+    font-weight: bold;
     font-size: 45px;
-    font-style: bold;
+    font-style ;
 }
 
-h2{
-    font-weight: 900;
+h2 {
+    font-weight: bolder;
 }
 nav ul li a{
     list-style: none;
@@ -118,6 +118,9 @@ img{
     background-color: #ffe6ac;
     margin: 10px;
 }
+.ourteam h3{
+    text-decoration: underline;
+}
 /*image behind the content*/
 .vision {
     background-image: url("../img/vision.jpg");
@@ -167,7 +170,26 @@ margin-left: 4px;
     border-color: black 1px;
     font-size: 1em;
 
+}
+th {
+    background-color: #c78c06;
+}
+table, th, td {
+    border: 1px solid;
 
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+iframe {
+    width: 100%;
+}
+
+footer {
+    background-color: black;
+    color: #c78c06;
 }
 
 @media only screen and (min-width: 760px) 
