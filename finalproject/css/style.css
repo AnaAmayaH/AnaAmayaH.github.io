@@ -22,7 +22,7 @@ h2 {
 nav ul li a{
     list-style: none;
     text-decoration: none;
-    color: white;
+    color: #c78c06;
     padding: 10px 20px;
     
 }
@@ -35,10 +35,7 @@ li {
 .home {
     background-color: #c78c06;
     color: black;
-    text-decoration: none;
-    
-
-    
+    text-decoration: none;    
      
 }
 ul {
@@ -53,6 +50,7 @@ ul {
     width: 90%;
     height: 40px;
     text-align: left;
+    font-size: 20px;
 }
 
 
@@ -179,15 +177,17 @@ margin-left: 4px;
 th {
     background-color: #c78c06;
 }
+/*to do a table with borders*/
 table, th, td {
     border: 1px solid;
 
 }
+/*the table onli with a one line*/
 table {
     width: 100%;
     border-collapse: collapse;
 }
-
+/*change the size of map*/
 iframe {
     width: 100%;
 }
@@ -197,11 +197,23 @@ footer {
     color: #c78c06;
 }
 
-@media only screen and (min-width: 760px);
+/*media help me to resize dependt of the size of the screen*/
+@media only screen and (min-width: 760px){
 
-nav ul li a{
+nav ul{
     display: flex;
+    align-items: center;
     padding: auto;
     justify-content: space-around;
-}
+    }
+    .services {
+        flex-direction: row;
+        padding-bottom: 7em;
 
+}
+.service article {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: start;
+}
+}
