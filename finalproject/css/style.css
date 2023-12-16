@@ -13,6 +13,9 @@ h1{
     font-style: bold;
 }
 
+h2{
+    font-weight: 900;
+}
 nav ul li a{
     list-style: none;
     text-decoration: none;
@@ -66,9 +69,12 @@ ul {
 
 #welcome h1{
     font-size: 100px;
-    ;
+    
 }
-
+#welcome h1, p, button {
+    background-color: rgba(black 0.3);
+    
+}
 .aboutus{
     background-color: #ffe6ac;
     margin: 10px 10px;
@@ -136,6 +142,33 @@ img{
    
 }
 
+#fullname {
+
+width: 900px;
+height: 30px;
+border-style: groove;
+border-width: 1px;
+margin-left: 4px;
+}
+
+#email {
+    width: 900px;
+    height: 30px;
+    border-style: groove;
+    border-width: 1px;
+    margin-left: 4px;
+}
+
+.form button {
+    background-color: black;
+    color: #c78c06;
+    width: 90px;
+    height: 40px;
+    border-color: black 1px;
+    font-size: 1em;
+
+
+}
 
 @media only screen and (min-width: 760px) 
 
